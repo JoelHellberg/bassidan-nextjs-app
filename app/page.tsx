@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <h1 className='py-6'>
-        Instantly deploy your Next.js site to a shareable URL with Vercel.
+        Test - Instantly deploy your Next.js site to a shareable URL with Vercel.
       </h1>
     </div>
   );
