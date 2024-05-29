@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply font-futura font-medium text-5xl text-center
+      mobile:text-4xl;
+    }
+    h2 {
+      @apply font-futura text-5xl text-center pb-8
+      handheld:text-5xl
+      mobile:text-4xl
+      thin:text-3xl;
+    }
+    h3 {
+      @apply font-futura text-4xl my-4 
+      handheld:my-0 handheld:py-5
+      mobile:break-normal mobile:text-3xl;
+    }
+    h4 {
+      @apply font-futura text-3xl font-medium
+    }
+    h5 {
+      @apply font-futura text-xl
+      thin:text-lg;
+    }
+    h6 {
+      @apply font-futura text-lg leading-5
+      thin:text-base;
+    }
+    img {
+      @apply aspect-auto;
+    }
+  }
+  
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  @apply bg-background text-blackText font-sans font-normal;
+}
+
+.menu_item_effect:after {
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  transform-origin:  0% 50%; 
+}
+.menu_item_effect:hover:after {
+  transform: scaleX(1);
+}
+
+.styled_button {
+  background:conic-gradient(
+  from 90.89deg at -10% 100%, 
+  rgba(245, 42, 178, 0.88) -0.78deg, 
+  #FFBF00 12.37deg, 
+  rgba(245, 42, 178, 0.88) 350.22deg, 
+  #FFBF00 370.37deg);
+}
