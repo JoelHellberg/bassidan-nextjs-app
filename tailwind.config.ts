@@ -15,13 +15,18 @@ const config: Config = {
         'sans': ['proxima-nova', ...defaultTheme.fontFamily.sans] // TODO: Override mobile default font
       },
       colors: {
-        background: '#eceae1',
+        background: '#FFF1DA',
         blackText: '#030302',
         whiteText: '#E3E3E3',
         footer: '#2D2D2D',
         customGreen: '#528e62',
         customYellow: '#e9b86b',
-        customBlue: '#a4c9cb'
+        customBlue: '#a4c9cb',
+        darkPurple: "#5A55A4",
+        darkOrange: "#F7944E",
+        darkLobster: "#C46E6E",
+        lightWhite1: '#F4F2ED',
+        lightWhite2: '#DEDAD3'
       },
     },
     screens: {
