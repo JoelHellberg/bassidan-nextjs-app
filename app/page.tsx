@@ -110,7 +110,7 @@ export default function Home() {
       <div className="flex w-full pr-8 mt-20 flex-wrap mobile:flex-col">
         <div className="w-1/2 bg-white mobile:w-full"> {/* 80% width div */}
         <div className="w-4/5 h-28 bg-darkOrange flex items-center justify-start pl-[8%] shadow-lg relative
-        mobile:w-full">
+        mobile:w-full mobile:overflow-x-hidden">
           <h2 className="text-white drop-shadow-lg">Klassföreståndare</h2>
 
           {/* Circle container */}
@@ -145,7 +145,7 @@ export default function Home() {
         </div>
         <div className="w-1/2 bg-lightWhite2 mobile:w-full"> {/* 20% width div */}
         <div className="w-4/5 h-28 bg-darkLobster flex items-center justify-start pl-[8%] shadow-lg relative
-        mobile:w-full">
+        mobile:w-full mobile:overflow-x-hidden">
               <h2 className="text-white drop-shadow-lg">Huvudklassfaddrar</h2>
 
                         {/* Circle container */}
