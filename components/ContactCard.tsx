@@ -29,7 +29,7 @@ const ContactCard = (props: Props) => {
       />
     </div>
 
-      <h3>{props.name}</h3>
+      <h3 className='z-10'>{props.name}</h3>
       <div className="
         flex flex-col text-xl
         handheld:text-2xl
