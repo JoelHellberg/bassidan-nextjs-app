@@ -10,7 +10,7 @@ type Props = {
 
 const MobileMenu = (props: Props) => {
   return (
-    <div className={`fixed top-0 flex h-screen w-full transition-all ease-in-out shadow-2xl ${props.menuIsOpen ? "right-0" : "-right-full"}`}>
+    <div className={`fixed top-0 flex h-screen w-full transition-all ease-in-out shadow-2xl z-50 ${props.menuIsOpen ? "right-0" : "-right-full"}`}>
       <div className="w-1/6" onClick={() => props.setMenuIsOpen(false)} />
       <div className="w-10/12 bg-background">
         <div className="flex flex-col p-4 space-y-5">
