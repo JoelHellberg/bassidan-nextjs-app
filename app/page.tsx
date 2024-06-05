@@ -2,6 +2,8 @@ import Image from "next/image";
 import Opening from '@/sections/HomePage/Opening'
 import Welcome from '@/sections/HomePage/Welcome'
 import Contacts from '@/sections/HomePage/Contacts'
+import ContactCard from '../components/ContactCard'
+
 
 export default function Home() {
   return (
@@ -63,10 +65,11 @@ export default function Home() {
       <div className="flex w-full">
 
       {/* Welcome */}
-      <div className="w-4/5 bg-blue-500"> {/* 80% width div */}
-          <h1 className='py-6'> Välkommen Nollan!</h1> {/* First paragraph */}
+      <div className="w-4/6 bg-blue-500
+      mobile:w-screen"> {/* 80% width div */}
+          <h2 className='py-6 px-32 text-left'> Välkommen Nollan!</h2> {/* First paragraph */}
           <div className='
-          text-left pb-10 px-52 flex flex-col 
+          text-left pb-10 px-32 flex flex-col 
           handheld:px-32
           mobile:px-6
           '>
@@ -89,31 +92,89 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="w-1/5 bg-green-500"> {/* 20% width div */}
-          <p>This div takes 20% of the width.</p>
+      <div className="w-2/6 px-20 bg-green-500
+      mobile:hidden"> {/* 20% width div */}
+      <Image
+                    src="/images/sampleBild.png"
+                    layout="responsive"
+                    width={100}
+                    height={100}
+                    objectFit="contain"
+                    alt="Left Image"
+                />
       </div>
 
       </div>
 
       {/* Welcome */}
-      <div className="flex w-full pr-8">
-        <div className="w-1/2 bg-white"> {/* 80% width div */}
-            <div className="w-4/5 h-20 bg-darkOrange">
-              <p>Why?</p>
+      <div className="flex w-full pr-8 mt-20 flex-wrap mobile:flex-col">
+        <div className="w-1/2 bg-white mobile:w-full"> {/* 80% width div */}
+        <div className="w-4/5 h-28 bg-darkOrange flex items-center justify-start pl-[8%] shadow-lg relative">
+          <h2 className="text-white drop-shadow-lg">Klassföreståndare</h2>
+
+          {/* Circle container */}
+          <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
+            <div className="relative w-36 h-36">
+              {/* Outer Circle */}
+              <div className="absolute top-0 left-0 w-full h-full bg-background rounded-full"></div>
+              {/* Middle Circle */}
+              <div className="absolute top-6 left-6 w-24 h-24 bg-orange rounded-full"></div>
+              {/* Inner Circle */}
+              <div className="absolute top-11 left-11 w-14 h-14 bg-darkOrange rounded-full"></div>
             </div>
-            <p>Test</p>
+          </div>
+
         </div>
-        <div className="w-1/2 bg-lightWhite2"> {/* 20% width div */}
-        <div className="w-4/5 h-20 bg-darkLobster">
-              <p>Why?</p>
+
+        <div className='
+        flex justify-center -mt-12
+        handheld:flex-col handheld:space-y-24
+        '>
+          <ContactCard
+            name='Amanda Hult'
+            phone='072-749 18 00'
+            email='amahu396@student.liu.se'
+            program='Medieteknik' />
+          <ContactCard
+            name='Josephine Zettervall'
+            phone='0725286711'
+            email='josze195@student.liu.se'
+            program='Medieteknik' />
+        </div>
+        </div>
+        <div className="w-1/2 bg-lightWhite2 mobile:w-full"> {/* 20% width div */}
+        <div className="w-4/5 h-28 bg-darkLobster flex items-center justify-start pl-[8%] shadow-lg relative">
+              <h2 className="text-white drop-shadow-lg">Huvudklassfaddrar</h2>
+
+                        {/* Circle container */}
+          <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
+            <div className="relative w-36 h-36">
+              {/* Outer Circle */}
+              <div className="absolute top-0 left-0 w-full h-full bg-background rounded-full"></div>
+              {/* Middle Circle */}
+              <div className="absolute top-6 left-6 w-24 h-24 bg-lobster rounded-full"></div>
+              {/* Inner Circle */}
+              <div className="absolute top-11 left-11 w-14 h-14 bg-darkLobster rounded-full"></div>
             </div>
-            <p>Test</p>
+          </div>
+            </div>
+            <div className='
+        flex justify-center -mt-12
+        handheld:flex-col handheld:space-y-24
+        '>
+          <ContactCard
+            name='Arvid Magnusson'
+            phone='072-246 68 12'
+            email='albkj604@student.liu.se'
+            program='Medieteknik' />
+          <ContactCard
+            name='Joel Hellberg'
+            phone='072-399 40 07'
+            email='guskr150@student.liu.se'
+            program='Medieteknik' />
+        </div>
         </div>
       </div>
-
-      <h1 className='py-6'>
-        Test - Instantly deploy your Next.js site to a shareable URL with Vercel.
-      </h1>
     </div>
   );
 }

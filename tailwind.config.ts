@@ -16,6 +16,7 @@ const config: Config = {
       },
       colors: {
         background: '#FFF1DA',
+        backgroundShaded: '#E2D9C7',
         blackText: '#030302',
         whiteText: '#E3E3E3',
         footer: '#2D2D2D',
@@ -23,7 +24,9 @@ const config: Config = {
         customYellow: '#e9b86b',
         customBlue: '#a4c9cb',
         darkPurple: "#5A55A4",
+        orange: "#FCC290",
         darkOrange: "#F7944E",
+        lobster: "#DEAB9E",
         darkLobster: "#C46E6E",
         lightWhite1: '#F4F2ED',
         lightWhite2: '#DEDAD3'
