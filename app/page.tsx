@@ -44,7 +44,8 @@ export default function Home() {
 </div>
 
 {/* Centered Text Overlay */}
-<div className="absolute w-1/3 mobile:relative mobile:w-11/12 mobile:py-8 mobile:mx-auto" >
+<div className="absolute w-1/3 mobile:relative mobile:w-11/12 mobile:py-8 mobile:mx-auto" 
+style={{ left: '55%', transform: 'translateX(-45%)' }}>
   <div className="bg-background p-10 text-center shadow-lg">
     <h2 className="text-left">Basåret.</h2>
     <p className="text-left">Glöm inte att fylla i nolle-enkäten! Följ oss gärna också på Instagram för att ta del av fler uppdateringar!.</p>
@@ -69,12 +70,12 @@ export default function Home() {
 </div>
 </div>
 
-      <div className="flex w-full">
+      <div className="flex w-full bg-blue-500 mobile:bg-pearl">
 
       {/* Welcome */}
-      <div className="w-4/6 bg-blue-500
-      mobile:w-screen"> {/* 80% width div */}
-          <h2 className='py-6 px-32 text-left'> Välkommen Nollan!</h2> {/* First paragraph */}
+      <div className="w-4/6
+      mobile:w-screen mobile:py-6"> {/* 80% width div */}
+          <h2 className='py-6 px-32 text-left mobile:text-center mobile:px-0'> Välkommen Nollan!</h2> {/* First paragraph */}
           <div className='
           text-left pb-10 px-32 flex flex-col 
           handheld:px-32
@@ -82,7 +83,7 @@ export default function Home() {
           '>
               <p className='
               text-xl text-justify pb-2
-              mobile:text-lg
+              mobile:text-lg mobile:text-center
               thin:text-base
               '>
               På denna sida hittar Nollan information om vad som händer under första veckan på Linköpings Universitet, den så kallade ”Nolle-veckan”.

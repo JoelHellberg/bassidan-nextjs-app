@@ -29,7 +29,8 @@ const config: Config = {
         lobster: "#DEAB9E",
         darkLobster: "#C46E6E",
         lightWhite1: '#F4F2ED',
-        lightWhite2: '#DEDAD3'
+        lightWhite2: '#DEDAD3',
+        pearl: "#FBFCF8",
       },
     },
     screens: {
