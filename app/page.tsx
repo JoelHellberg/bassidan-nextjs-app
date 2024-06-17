@@ -8,24 +8,31 @@ import ContactCard from '../components/ContactCard'
 export default function Home() {
   return (
     <div className="flex-1">
-      <div className="relative flex items-center w-full h-[90vh]">
-{/* Left Image */}
-<div className="w-1/2 shadow-lg">
-  <Image
-    src="/images/group_square.jpg"
-    layout="responsive"
-    width={100}
-    height={100}
-    objectFit="contain"
-    alt="Left Image"
-  />
-</div>
+      <div className="relative flex items-center w-full h-[90vh] mobile:grid mobile:h-auto mobile:w-full">
+
+         {/* Green square positioned behind the image, only visible on mobile */}
+    <div className="hidden mobile:block mobile:aspect-square mobile:absolute mobile:right-0 mobile:top-0 mobile:w-4/6 mobile:bg-darkLobster"></div>
+    <div className="relative mobile:aspect-square mobile:w-1/12"></div>
+    {/* Left Image Container */}
+    <div className="relative w-1/2 shadow-lg mobile:w-4/5 mobile:mx-auto">
+      {/* Left Image */}
+      <div className="relative" style={{ top: '16.66%' }}>
+        <Image
+          src="/images/group_square.jpg"
+          layout="responsive"
+          width={100}
+          height={100}
+          objectFit="contain"
+          alt="Left Image"
+        />
+      </div>
+    </div>
 
 {/* Gap */}
-<div style={{ width: '10%' }}></div>
+<div className="mobile:hidden" style={{ width: '10%' }}></div>
 
 {/* Right Image */}
-<div className="w-2/5 shadow-lg">
+<div className="w-2/5 shadow-lg mobile:hidden">
   <Image
     src="/images/LiU_square.png"
     layout="responsive"
@@ -37,8 +44,8 @@ export default function Home() {
 </div>
 
 {/* Centered Text Overlay */}
-<div className="absolute w-1/3" style={{ left: '55%', transform: 'translateX(-45%)' }}>
-  <div className="bg-background p-10 text-center shadow-lg">
+<div className="absolute w-1/3 mobile:relative mobile:w-11/12" style={{ left: '50%', transform: 'translateX(-50%)' }}>
+  <div className="bg-background p-10 text-center shadow-lg mobile:px-16 mobile:py-10">
     <h2 className="text-left">Basåret.</h2>
     <p className="text-left">Glöm inte att fylla i nolle-enkäten! Följ oss gärna också på Instagram för att ta del av fler uppdateringar!.</p>
     <div className="flex space-x-4">
