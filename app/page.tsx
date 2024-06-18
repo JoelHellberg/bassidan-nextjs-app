@@ -49,22 +49,25 @@ export default function Home() {
     <h2 className="text-left">Basåret.</h2>
     <p className="text-left pb-5">Glöm inte att fylla i nolle-enkäten! Följ oss gärna också på Instagram för att ta del av fler uppdateringar!.</p>
     <div className="flex space-x-4">
-            <a href="https://www.google.com/search?q=test&oq=test&gs_lcrp=EgZjaHJvbWUqFAgAEEUYOxhDGIMBGLEDGIAEGIoFMhQIABBFGDsYQxiDARixAxiABBiKBTIMCAEQABhDGIAEGIoFMgwIAhAAGEMYgAQYigUyDAgDEAAYQxiABBiKBTIKCAQQABixAxiABDIKCAUQABixAxiABDIQCAYQABiDARixAxiABBiKBTIKCAcQABixAxiABDIGCAgQRRg80gEHNzM2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8">
-            <button className="bg-darkPurple text-white px-4 py-2 rounded">Nolle-enkäten</button>
-            </a>
-            <a href="https://www.google.com/search?q=test&oq=test&gs_lcrp=EgZjaHJvbWUqFAgAEEUYOxhDGIMBGLEDGIAEGIoFMhQIABBFGDsYQxiDARixAxiABBiKBTIMCAEQABhDGIAEGIoFMgwIAhAAGEMYgAQYigUyDAgDEAAYQxiABBiKBTIKCAQQABixAxiABDIKCAUQABixAxiABDIQCAYQABiDARixAxiABBiKBTIKCAcQABixAxiABDIGCAgQRRg80gEHNzM2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8">
-            <button className="bg-darkOrange text-white px-4 py-2 rounded">
-                <Image
-                    src="/images/logos/instagram.png"
-                    layout="responsive"
-                    width={100}
-                    height={100}
-                    objectFit="contain"
-                    alt="Left Image"
-                />
-            </button>
-            </a>
-    </div>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+    <button className="bg-darkPurple text-white px-4 py-2 rounded h-12 flex items-center justify-center">Nolle-enkäten</button>
+  </a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+    <button className="bg-darkOrange text-white px-4 py-2 rounded h-12 flex items-center justify-center">
+      <div className="w-full h-full flex items-center justify-center">
+        <Image
+          src="/images/logos/instagram.png"
+          layout="intrinsic"
+          width={24} // Adjust the width to fit within the button
+          height={24} // Adjust the height to fit within the button
+          objectFit="contain"
+          alt="Left Image"
+        />
+      </div>
+    </button>
+  </a>
+</div>
+
   </div>
 </div>
 </div>
