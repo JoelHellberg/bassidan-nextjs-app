@@ -14,7 +14,7 @@
       thin:text-3xl;
     }
     h3 {
-      @apply font-futura text-xl my-4 
+      @apply font-futura text-2xl my-4 
       handheld:my-0 handheld:py-5
       mobile:break-normal mobile:text-2xl;
     }
