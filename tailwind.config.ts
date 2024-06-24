@@ -25,6 +25,7 @@ const config: Config = {
         customYellow: '#e9b86b',
         customBlue: '#a4c9cb',
         darkPurple: "#5A55A4",
+        purple: "#A295BD",
         orange: "#FCC290",
         darkOrange: "#F7944E",
         lobster: "#DEAB9E",
