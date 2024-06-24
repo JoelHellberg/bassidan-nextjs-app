@@ -126,7 +126,7 @@ export default function Home() {
         <div className="w-1/2 handheld:w-full"> {/* 80% width div */}
           <div className="w-4/5 h-28 bg-darkOrange flex items-center justify-start pl-[8%] shadow-lg relative
         mobile:w-full mobile:overflow-x-hidden">
-            <h2 className="text-white drop-shadow-lg">Klassföreståndare</h2>
+            <h2 className="font-futura text-white drop-shadow-lg">Klassföreståndare</h2>
 
             {/* Circle container */}
             <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
@@ -147,21 +147,21 @@ export default function Home() {
         mobile:flex-col mobile:space-y-24 handheld:justify-start
         '>
             <ContactCard
-              name='Amanda Hult'
-              phone='072-749 18 00'
-              email='amahu396@student.liu.se'
+              name='Armen Abedi'
+              phone='076-610 24 24'
+              email='armab790@student.liu.se'
               program='Medieteknik' />
             <ContactCard
-              name='Josephine Zettervall'
-              phone='0725286711'
-              email='josze195@student.liu.se'
+              name='Caitlin Wu'
+              phone='076-178 60 24'
+              email='caiwu993@student.liu.se'
               program='Medieteknik' />
           </div>
         </div>
         <div className="w-1/2 handheld:w-full"> {/* 20% width div */}
           <div className="w-4/5 h-28 bg-darkLobster flex items-center justify-start pl-[8%] shadow-lg relative
         mobile:w-full mobile:overflow-x-hidden mobile:mt-14">
-            <h2 className="text-white drop-shadow-lg">Huvudklassfaddrar</h2>
+            <h2 className="font-futura text-white drop-shadow-lg">Huvudklassfaddrar</h2>
 
             {/* Circle container */}
             <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
@@ -181,13 +181,13 @@ export default function Home() {
         '>
             <ContactCard
               name='Arvid Magnusson'
-              phone='072-246 68 12'
-              email='albkj604@student.liu.se'
+              phone='076-207 45 86'
+              email='arvma857@student.liu.se'
               program='Medieteknik' />
             <ContactCard
               name='Joel Hellberg'
-              phone='072-399 40 07'
-              email='guskr150@student.liu.se'
+              phone='070-294 40 05'
+              email='joehe737@student.liu.se'
               program='Medieteknik' />
           </div>
         </div>

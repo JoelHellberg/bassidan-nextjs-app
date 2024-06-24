@@ -10,8 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        'teko': ['teko', 'sans-serif'],
         'futura': ['futura-pt', 'sans-serif'],
-        'proxima': ['proxima-nova', 'sans-serif'],
+        'modesto': ['proxima-nova', 'sans-serif'],
         'sans': ['proxima-nova', ...defaultTheme.fontFamily.sans] // TODO: Override mobile default font
       },
       colors: {
