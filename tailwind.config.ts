@@ -12,8 +12,8 @@ const config: Config = {
       fontFamily: {
         'teko': ['teko', 'sans-serif'],
         'futura': ['futura-pt', 'sans-serif'],
-        'modesto': ['proxima-nova', 'sans-serif'],
-        'sans': ['proxima-nova', ...defaultTheme.fontFamily.sans] // TODO: Override mobile default font
+        'modesto': ['ibm-plex-sans', 'sans-serif'],
+        'sans': ['ibm-plex-sans', ...defaultTheme.fontFamily.sans] // TODO: Override mobile default font
       },
       colors: {
         background: '#FFF1DA',
@@ -23,16 +23,16 @@ const config: Config = {
         footer: '#2D2D2D',
         customGreen: '#528e62',
         customYellow: '#e9b86b',
-        customBlue: '#a4c9cb',
-        darkPurple: "#5A55A4",
-        purple: "#A295BD",
-        orange: "#FCC290",
-        darkOrange: "#F7944E",
-        lobster: "#DEAB9E",
-        darkLobster: "#C46E6E",
+        customBlue: "#A295BD",
+        purple: '#A295BD',
+        darkPurple: '#5A55A4',
+        orange: '#FCC290',
+        darkOrange: '#F7944E',
+        lobster: '#DEAB9E',
+        darkLobster: '#C46E6E',
         lightWhite1: '#F4F2ED',
         lightWhite2: '#DEDAD3',
-        pearl: "#FBFCF8",
+        pearl: '#FBFCF8',
       },
     },
     screens: {

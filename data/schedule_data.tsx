@@ -2,7 +2,7 @@ export const schedule = [
   {
     date: "25/8",
     weekday: "Fredag",
-    color: "customBlue",
+    color: "lobster",
     activities: [
       {
         header: "Första lunchen",
@@ -23,7 +23,7 @@ export const schedule = [
   {
     date: "26/8",
     weekday: "Lördag",
-    color: "customYellow",
+    color: "orange",
     activities: [
       {
         header: "Stadsvandring",
@@ -37,7 +37,7 @@ export const schedule = [
   {
     date: "27/8",
     weekday: "Söndag",
-    color: "customGreen",
+    color: "customBlue",
     activities: [
       {
         header: "Lekar i folkparken",
@@ -51,7 +51,7 @@ export const schedule = [
   {
     date: "28/8",
     weekday: "Måndag",
-    color: "customBlue",
+    color: "lobster",
     activities: [
       {
         header: "Pluggstuga/Häng",
@@ -73,7 +73,7 @@ export const schedule = [
   {
     date: "29/8",
     weekday: "Tisdag",
-    color: "customYellow",
+    color: "orange",
     activities: [
       {
         header: "Lunch och sittningsinformation",
@@ -94,7 +94,7 @@ export const schedule = [
   {
     date: "30/8",
     weekday: "Onsdag",
-    color: "customGreen",
+    color: "purple",
     activities: [
       {
         header: "Matlådans dag",
@@ -115,7 +115,7 @@ export const schedule = [
   {
     date: "31/8",
     weekday: "Torsdag",
-    color: "customYellow",
+    color: "lobster",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
@@ -129,7 +129,7 @@ export const schedule = [
   {
     date: "1/9",
     weekday: "Fredag",
-    color: "customGreen",
+    color: "orange",
     activities: [
       {
         header: "Basårskampen",
@@ -143,7 +143,7 @@ export const schedule = [
   {
     date: "2/9",
     weekday: "Lördag",
-    color: "customBlue",
+    color: "purple",
     activities: [
       {
         time: "16:30-18:00",
@@ -171,7 +171,7 @@ export const schedule = [
   {
     date: "3/9",
     weekday: "Söndag",
-    color: "customYellow",
+    color: "lobster",
     activities: [
       {
         header: "Ettans dag",

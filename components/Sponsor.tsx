@@ -10,20 +10,19 @@ type Props = {
 }
 
 const Sponsor = (props: Props) => {
-  // Because random numbers are used the client- and serverside will not match, so the number has to be placed in state and effect
-  const [useCompany2, setUseCompany2] = useState(true);
+  const [useCompany2, setUseCompany2] = useState(false);
+
   useEffect(() => {
-    setUseCompany2(Math.random() < 0.5);
-  }, []);
+    if (props.company2 !== "") {
+      const interval = setInterval(() => {
+        setUseCompany2(prev => !prev);
+      }, 5000);
 
-  let company = props.company1;
+      return () => clearInterval(interval); // Cleanup interval on component unmount
+    }
+  }, [props.company2]);
 
-  // If company2 is used (not blank), the component should randomize visibility between company1 and company2 (set earlier because react hook need to be outside if-statements)
-  if (props.company2 != "" && useCompany2) {
-    company = props.company2;
-  }
-
-
+  const company = useCompany2 && props.company2 !== "" ? props.company2 : props.company1;
   const img_src = "/images/sponsors/" + company.toLowerCase() + ".png";
 
   return (

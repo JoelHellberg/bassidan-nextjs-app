@@ -6,6 +6,9 @@
  *
  * futura-pt:
  *   - http://typekit.com/eulas/00000000000000000001008f
+ * ibm-plex-sans:
+ *   - http://typekit.com/eulas/000000000000000077359445
+ *   - http://typekit.com/eulas/000000000000000077359463
  * modesto-condensed:
  *   - http://typekit.com/eulas/00000000000000007735a03b
  *   - http://typekit.com/eulas/00000000000000007735a055
@@ -47,9 +50,9 @@
  *
  * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
  */
-/*{"last_published":"2024-06-23 09:37:00 UTC"}*/
+/*{"last_published":"2024-06-25 18:05:59 UTC"}*/
 
-@import url("https://p.typekit.net/p.css?s=1&k=wei4ota&ht=tk&f=10879.14478.15553.15554.27819.15556.27841.15558.27866.15560.15561.27817.27838.27820.27821.27851.27832.27833.27845.27853.27858.27869.27872.41036&a=182314083&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=wei4ota&ht=tk&f=10879.14478.15553.15554.27819.15556.27841.15558.27866.15560.15561.27817.27838.27820.27821.27851.27832.27833.27845.27853.27858.27869.27872.39885.39891.41036&a=182314083&app=typekit&e=css");
 
 @font-face {
 font-family:"futura-pt";
@@ -190,6 +193,18 @@ font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
 @font-face {
+font-family:"ibm-plex-sans";
+src:url("https://use.typekit.net/af/89996a/000000000000000077359445/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/89996a/000000000000000077359445/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/89996a/000000000000000077359445/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ibm-plex-sans";
+src:url("https://use.typekit.net/af/2c6c03/000000000000000077359463/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2c6c03/000000000000000077359463/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2c6c03/000000000000000077359463/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
 font-family:"teko";
 src:url("https://use.typekit.net/af/2b4dd0/00000000000000007735b881/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2b4dd0/00000000000000007735b881/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2b4dd0/00000000000000007735b881/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
@@ -210,4 +225,5 @@ font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 .tk-modestolite-expanded { font-family: "modestolite-expanded",serif; }
 .tk-modesto-open-fat-outline { font-family: "modesto-open-fat-outline",sans-serif; }
 .tk-modesto-initials-inline { font-family: "modesto-initials-inline",sans-serif; }
+.tk-ibm-plex-sans { font-family: "ibm-plex-sans",sans-serif; }
 .tk-teko { font-family: "teko",sans-serif; }
