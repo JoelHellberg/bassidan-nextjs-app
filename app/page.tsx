@@ -107,10 +107,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-2/6 px-20 handheld:px-0 bg-green-500 m-auto
+        <div className="w-2/6 m-auto
       handheld:hidden"> {/* 20% width div */}
           <Image
-            src="/images/sampleBild.png"
+            src="/images/brannbollBild.png"
             layout="responsive"
             width={100}
             height={100}

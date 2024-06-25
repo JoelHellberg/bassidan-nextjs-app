@@ -10,12 +10,14 @@ const DesktopMenu = () => {
         isMobile={false}
         setMenuIsOpen={() => undefined}
       />
-      <MenuItem
-        title={"Schema Basår"}
-        redirect={"https://cloud.timeedit.net/liu/web/schema/ri167XQQ698Z50Qm37070gZ6y5Y7505Q6Y95Y7.html"}
-        isMobile={false}
-        setMenuIsOpen={() => undefined}
-      />
+      <div className='hover:text-blue-500'>
+        <MenuItem
+          title={"Schema Basår"}
+          redirect={"https://cloud.timeedit.net/liu/web/schema/ri167XQQ698Z50Qm37070gZ6y5Y7505Q6Y95Y7.html"}
+          isMobile={false}
+          setMenuIsOpen={() => undefined}
+        />
+      </div>
       <MenuItem
         title={"Nolleboken"}
         redirect={"nolleboken.pdf"}
