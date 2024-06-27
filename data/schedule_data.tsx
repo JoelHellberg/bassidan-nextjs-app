@@ -2,7 +2,7 @@ export const schedule = [
   {
     date: "30/8",
     weekday: "Fredag",
-    color: "darkLobster",
+    color: "darkOrange",
     activities: [
       {
         header: "Första lunchen",
@@ -23,7 +23,7 @@ export const schedule = [
   {
     date: "31/8",
     weekday: "Lördag",
-    color: "darkOrange",
+    color: "darkLobster",
     activities: [
       {
         header: "Insparken i folkparken",
@@ -51,7 +51,7 @@ export const schedule = [
   {
     date: "2/9",
     weekday: "Måndag",
-    color: "darkLobster",
+    color: "darkOrange",
     activities: [
       {
         header: "Pluggstuga / Häng",
@@ -73,7 +73,7 @@ export const schedule = [
   {
     date: "3/9",
     weekday: "Tisdag",
-    color: "darkOrange",
+    color: "darkLobster",
     activities: [
       {
         header: "Lunch och sittningsinformation",
@@ -122,7 +122,7 @@ export const schedule = [
   {
     date: "5/9",
     weekday: "Torsdag",
-    color: "darkLobster",
+    color: "darkOrange",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
@@ -143,7 +143,7 @@ export const schedule = [
   {
     date: "6/9",
     weekday: "Fredag",
-    color: "darkOrange",
+    color: "darkLobster",
     activities: [
       {
         header: "Basårskampen",
@@ -185,7 +185,7 @@ export const schedule = [
   {
     date: "8/9",
     weekday: "Söndag",
-    color: "darkLobster",
+    color: "darkOrange",
     activities: [
       {
         header: "Ettans dag",

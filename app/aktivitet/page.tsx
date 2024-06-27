@@ -9,7 +9,7 @@ export default function Page() {
       <h1 className="py-10">Aktivitetsschema</h1>
       <div
         className="
-          bg-background flex items-center px-8 py-4 rounded-2xl mb-10
+          bg-background flex items-center px-8 py-0 rounded-2xl mb-10
           mx-3
           ">
         <Image
