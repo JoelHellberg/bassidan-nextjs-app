@@ -9,7 +9,7 @@ export const schedule = [
         time: "12:15-13:00",
         location: "Hemklassrummen",
         alcohol: false,
-        description: "Nollan bjuds på lunch, det finns också chans att pynta sin Nollekeps."
+        description: "Nollan bjuds på lunch, det finns också chans att pynta sitt Nolleband."
       },
       {
         header: "Campus-rundvandring",
