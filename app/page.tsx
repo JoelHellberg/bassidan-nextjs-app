@@ -82,7 +82,7 @@ export default function Home() {
         {/* Welcome */}
         <div className="w-4/6
       handheld:w-screen mobile:py-3"> {/* 80% width div */}
-          <h2 className='pt-6 pb-10 px-32 text-left handheld:text-center handheld:px-0'> Välkommen Nollan!</h2> {/* First paragraph */}
+          <h2 className='pt-6 pb-10 px-32 text-left handheld:text-center handheld:px-0 mobile:text-4xl'> Välkommen Nollan!</h2> {/* First paragraph */}
           <div className='
           text-left pb-10 px-32 flex flex-col 
           handheld:px-16
