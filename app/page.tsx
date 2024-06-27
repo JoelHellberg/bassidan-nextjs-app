@@ -144,7 +144,7 @@ export default function Home() {
 
           <div className='
         flex justify-center -mt-12
-        mobile:flex-col mobile:space-y-24 handheld:justify-start
+        mobile:flex-col mobile:space-y-6 handheld:justify-start
         '>
             <ContactCard
               name='Armen Abedi'
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
           <div className='
         flex justify-center -mt-12
-        mobile:flex-col mobile:space-y-24 handheld:justify-start
+        mobile:flex-col mobile:space-y-6 handheld:justify-start
         '>
             <ContactCard
               name='Arvid Magnusson'
