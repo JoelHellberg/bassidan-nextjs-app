@@ -2,7 +2,7 @@ export const schedule = [
   {
     date: "30/8",
     weekday: "Fredag",
-    color: "lobster",
+    color: "darkLobster",
     activities: [
       {
         header: "Första lunchen",
@@ -23,7 +23,7 @@ export const schedule = [
   {
     date: "31/8",
     weekday: "Lördag",
-    color: "orange",
+    color: "darkOrange",
     activities: [
       {
         header: "Insparken i folkparken",
@@ -37,7 +37,7 @@ export const schedule = [
   {
     date: "1/9",
     weekday: "Söndag",
-    color: "customBlue",
+    color: "darkPurple",
     activities: [
       {
         header: "Stadsrundvandring",
@@ -51,7 +51,7 @@ export const schedule = [
   {
     date: "2/9",
     weekday: "Måndag",
-    color: "lobster",
+    color: "darkLobster",
     activities: [
       {
         header: "Pluggstuga / Häng",
@@ -73,7 +73,7 @@ export const schedule = [
   {
     date: "3/9",
     weekday: "Tisdag",
-    color: "orange",
+    color: "darkOrange",
     activities: [
       {
         header: "Lunch och sittningsinformation",
@@ -101,7 +101,7 @@ export const schedule = [
   {
     date: "4/9",
     weekday: "Onsdag",
-    color: "customBlue",
+    color: "darkPurple",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
@@ -122,7 +122,7 @@ export const schedule = [
   {
     date: "5/9",
     weekday: "Torsdag",
-    color: "lobster",
+    color: "darkLobster",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
@@ -143,7 +143,7 @@ export const schedule = [
   {
     date: "6/9",
     weekday: "Fredag",
-    color: "orange",
+    color: "darkOrange",
     activities: [
       {
         header: "Basårskampen",
@@ -157,7 +157,7 @@ export const schedule = [
   {
     date: "7/9",
     weekday: "Lördag",
-    color: "customBlue",
+    color: "darkPurple",
     activities: [
       {
         time: "16:30-18:00",
@@ -183,9 +183,9 @@ export const schedule = [
     ]
   },
   {
-    date: "3/9",
+    date: "8/9",
     weekday: "Söndag",
-    color: "lobster",
+    color: "darkLobster",
     activities: [
       {
         header: "Ettans dag",

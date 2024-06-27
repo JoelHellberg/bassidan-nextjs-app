@@ -5,7 +5,7 @@ import { schedule } from "@/data/schedule_data";
 
 export default function Page() {
   return (
-    <main className="bg-slate-100 flex flex-col items-center pb-10 flex-1">
+    <main className="flex flex-col items-center pb-10 flex-1">
       <h1 className="py-10">Aktivitetsschema</h1>
       <div
         className="
