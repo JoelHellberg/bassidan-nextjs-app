@@ -37,7 +37,7 @@ export const schedule = [
   {
     date: "1/9",
     weekday: "Söndag",
-    color: "purple",
+    color: "customBlue",
     activities: [
       {
         header: "Stadsrundvandring",
@@ -101,7 +101,7 @@ export const schedule = [
   {
     date: "4/9",
     weekday: "Onsdag",
-    color: "purple",
+    color: "customBlue",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
@@ -157,7 +157,7 @@ export const schedule = [
   {
     date: "7/9",
     weekday: "Lördag",
-    color: "purple",
+    color: "customBlue",
     activities: [
       {
         time: "16:30-18:00",
