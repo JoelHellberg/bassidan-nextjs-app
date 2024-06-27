@@ -30,7 +30,7 @@ const config: Config = {
         darkOrange: '#F7944E',
         lobster: '#DEAB9E',
         darkLobster: '#C46E6E',
-        lightWhite1: '#F4F2ED',
+        lightWhite1: '#FFF1DA',
         lightWhite2: '#DEDAD3',
         pearl: '#FBFCF8',
       },

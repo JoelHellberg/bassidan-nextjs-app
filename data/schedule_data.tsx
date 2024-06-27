@@ -1,6 +1,6 @@
 export const schedule = [
   {
-    date: "25/8",
+    date: "30/8",
     weekday: "Fredag",
     color: "lobster",
     activities: [
@@ -21,40 +21,40 @@ export const schedule = [
     ]
   },
   {
-    date: "26/8",
+    date: "31/8",
     weekday: "Lördag",
     color: "orange",
     activities: [
       {
-        header: "Stadsvandring",
-        time: "A: 12:00-15:00, B: 12:30-15:30",
+        header: "Insparken i folkparken",
+        time: "12:00 - 14:00",
         location: "Mellan husen",
         alcohol: false,
-        description: "Nollan visas runt i stan för att få en bättre uppfattning av hur stan ser ut. Nollan kommer få träffa olika föreningar på vägen!"
+        description: "Nollan får göra en massa roliga aktiviteter tillsammans och lära känna varandra"
       }
     ]
   },
   {
-    date: "27/8",
+    date: "1/9",
     weekday: "Söndag",
     color: "customBlue",
     activities: [
       {
-        header: "Lekar i folkparken",
-        time: "12:00-14:00",
+        header: "Stadsrundvandring",
+        time: "A: 11:00 - 14:00, B: 11:30 - 14:30",
         location: "Mellan husen",
         alcohol: false,
-        description: "För Nollans sammanhållning och en lugn start på Nolleveckan. Häng, lekar och spel i parken."
+        description: "Nollan får träffa några av LinTeks föreningar och göra roliga aktiviteter med dem."
       }
     ]
   },
   {
-    date: "28/8",
+    date: "2/9",
     weekday: "Måndag",
     color: "lobster",
     activities: [
       {
-        header: "Pluggstuga/Häng",
+        header: "Pluggstuga / Häng",
         time: "15:15-18:00",
         location: "TP42",
         alcohol: false,
@@ -62,7 +62,7 @@ export const schedule = [
       },
 
       {
-        header: "Grillkväll på DK",
+        header: "Korvgrillning",
         time: "18:00-22:00",
         location: "DK",
         alcohol: true,
@@ -71,7 +71,7 @@ export const schedule = [
     ]
   },
   {
-    date: "29/8",
+    date: "3/9",
     weekday: "Tisdag",
     color: "orange",
     activities: [
@@ -83,25 +83,11 @@ export const schedule = [
         description: "Vi har en kort presentation om “hur man går på sittning” och säljer fler biljetter till sittningen och basårskampen."
       },
       {
-        header: "Pluggstuga",
-        time: "17:30-20:00",
+        header: "Pluggstuga / Häng",
+        time: "15:15-18:00",
         location: "TP42",
         alcohol: false,
         description: "Nollan kan få hjälp med sina studier och ställa frågor till erfarna faddrar"
-      }
-    ]
-  },
-  {
-    date: "30/8",
-    weekday: "Onsdag",
-    color: "purple",
-    activities: [
-      {
-        header: "Matlådans dag",
-        time: "12:15-13:00",
-        location: "Mellan husen",
-        alcohol: false,
-        description: "Nollan tar med sig en egen matlåda och äter den tillsammans med sin grupp i folkparken!"
       },
       {
         header: "Sektionspub",
@@ -113,7 +99,28 @@ export const schedule = [
     ]
   },
   {
-    date: "31/8",
+    date: "4/9",
+    weekday: "Onsdag",
+    color: "customBlue",
+    activities: [
+      {
+        header: "Pluggstuga och Norrköpingstips",
+        time: "10:15-12:00",
+        location: "TP42",
+        alcohol: true,
+        description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
+      },
+      {
+        header: "Matlådans dag",
+        time: "12:15-13:00",
+        location: "Mellan husen",
+        alcohol: false,
+        description: "Nollan tar med sig en egen matlåda och äter den tillsammans med sin grupp i folkparken!"
+      }
+    ]
+  },
+  {
+    date: "5/9",
     weekday: "Torsdag",
     color: "lobster",
     activities: [
@@ -123,27 +130,34 @@ export const schedule = [
         location: "TP42",
         alcohol: false,
         description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
+      },
+      {
+        header: "Torsdagspub",
+        time: "18:00-00:00",
+        location: "Trappan",
+        alcohol: true,
+        description: "Placeholder"
       }
     ]
   },
   {
-    date: "1/9",
+    date: "6/9",
     weekday: "Fredag",
     color: "orange",
     activities: [
       {
         header: "Basårskampen",
         time: "19:00-21:00",
-        location: "DK",
+        location: "Himpan",
         alcohol: true,
         description: "Vi delar upp Nollan i flera grupper och har en runda på studentboendet DK (se ordlistan) med aktiviter, tävlingar och annat kul!"
       }
     ]
   },
   {
-    date: "2/9",
+    date: "7/9",
     weekday: "Lördag",
-    color: "purple",
+    color: "customBlue",
     activities: [
       {
         time: "16:30-18:00",

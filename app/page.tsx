@@ -51,7 +51,7 @@ export default function Home() {
         {/* Centered Text Overlay */}
         <div className="absolute w-1/3 right-1/4 mobile:relative handheld:w-3/5 mobile:w-11/12 mobile:py-8 mobile:mx-auto handheld:right-0" >
           <div className="bg-background p-10 text-center shadow-lg">
-            <h2 className="text-left">Basåret.</h2>
+            <h2 className="text-left pb-4">Basåret.</h2>
             <p className="text-left pb-5">Glöm inte att fylla i nolle-enkäten! Följ oss gärna också på Instagram för att ta del av fler uppdateringar!</p>
             <div className="flex space-x-4">
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
@@ -82,7 +82,7 @@ export default function Home() {
         {/* Welcome */}
         <div className="w-4/6
       handheld:w-screen mobile:py-3"> {/* 80% width div */}
-          <h2 className='py-6 px-32 text-left handheld:text-center handheld:px-0'> Välkommen Nollan!</h2> {/* First paragraph */}
+          <h2 className='pt-6 pb-10 px-32 text-left handheld:text-center handheld:px-0'> Välkommen Nollan!</h2> {/* First paragraph */}
           <div className='
           text-left pb-10 px-32 flex flex-col 
           handheld:px-16
