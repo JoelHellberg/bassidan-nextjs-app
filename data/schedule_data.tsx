@@ -87,7 +87,7 @@ export const schedule = [
         time: "15:15-18:00",
         location: "TP42",
         alcohol: false,
-        description: "Nollan kan få hjälp med sina studier och ställa frågor till erfarna faddrar"
+        description: "Nollan kan få hjälp med sina studier och ställa frågor till erfarna faddrar."
       },
       {
         header: "Sektionspub",
@@ -126,7 +126,7 @@ export const schedule = [
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
-        time: "17:30-20:00",
+        time: "15:15-18:00",
         location: "TP42",
         alcohol: false,
         description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
@@ -136,7 +136,7 @@ export const schedule = [
         time: "18:00-00:00",
         location: "Trappan",
         alcohol: true,
-        description: "Placeholder"
+        description: "Nollan får gå på sin första pub och träffa studenter från alla program och år!"
       }
     ]
   },
@@ -171,7 +171,7 @@ export const schedule = [
         time: "18:00-22:00",
         location: "Trappan",
         alcohol: true,
-        description: "En klassisk sittning med underhållning i form av gyckel och lekar"
+        description: "En klassisk sittning med underhållning i form av gyckel och lekar!"
       },
       {
         header: "Trappanfest",
