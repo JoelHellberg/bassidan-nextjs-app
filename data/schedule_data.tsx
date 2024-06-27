@@ -136,7 +136,7 @@ export const schedule = [
         time: "18:00-00:00",
         location: "Trappan",
         alcohol: true,
-        description: "Nollan får gå på sin första pub och träffa studenter från alla program och år!"
+        description: "Nollan får gå på sin första Torsdagspub och träffa studenter från alla program och år!"
       }
     ]
   },
