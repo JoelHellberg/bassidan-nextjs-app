@@ -37,7 +37,7 @@ export const schedule = [
   {
     date: "1/9",
     weekday: "Söndag",
-    color: "darkPurple",
+    color: "purple",
     activities: [
       {
         header: "Stadsrundvandring",
@@ -101,13 +101,13 @@ export const schedule = [
   {
     date: "4/9",
     weekday: "Onsdag",
-    color: "darkPurple",
+    color: "purple",
     activities: [
       {
         header: "Pluggstuga och Norrköpingstips",
         time: "10:15-12:00",
         location: "TP42",
-        alcohol: true,
+        alcohol: false,
         description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
       },
       {
@@ -157,7 +157,7 @@ export const schedule = [
   {
     date: "7/9",
     weekday: "Lördag",
-    color: "darkPurple",
+    color: "purple",
     activities: [
       {
         time: "16:30-18:00",
