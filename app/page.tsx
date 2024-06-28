@@ -51,8 +51,8 @@ export default function Home() {
         {/* Centered Text Overlay */}
         <div className="absolute w-1/3 right-1/4 mobile:relative handheld:w-3/5 mobile:w-11/12 mobile:py-8 mobile:mx-auto handheld:right-0" >
           <div className="bg-background p-10 text-center shadow-lg">
-            <h2 className="text-left pb-4">Basåret.</h2>
-            <p className="text-left pb-5">Glöm inte att fylla i nolle-enkäten! Följ oss gärna också på Instagram för att ta del av fler uppdateringar!</p>
+            <h2 className="text-left pb-4">Basåret</h2>
+            <p className="text-left pb-5">Glöm inte att fylla i nolle-enkäten! Följ oss gärna på Instagram också för att ta del av fler uppdateringar!</p>
             <div className="flex space-x-4">
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
                 <button className="bg-darkPurple text-white px-4 py-2 rounded h-11 flex items-center justify-center">Nolle-enkäten</button>
