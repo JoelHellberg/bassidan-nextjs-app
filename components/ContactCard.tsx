@@ -15,19 +15,19 @@ const ContactCard = (props: Props) => {
   const img_src = "/images/" + props.name.split(" ")[0].toLowerCase() + ".jpg";
 
   return (
-    <div className="flex flex-col items-center w-1/3 p-4 m-2 rounded-lg mobile:w-4/5">
-    <div className="relative aspect-[5/7] w-full">
-      {/* Shadow div */}
-      <div className="absolute top-0 left-0 w-full h-full bg-backgroundShaded" style={{ transform: 'translate(15px, 15px)' }}></div>
-      {/* Image */}
-      <Image
-        src={img_src}
-        layout="fill"
-        alt={props.name}
-        sizes="50vw"
-        className="relative border border-solid object-cover"
-      />
-    </div>
+    <div className="flex flex-col items-center w-1/3 p-4 m-2 rounded-lg mobile:w-4/5 mobile:mx-auto">
+      <div className="relative aspect-[5/7] w-full">
+        {/* Shadow div */}
+        <div className="absolute top-0 left-0 w-full h-full bg-backgroundShaded" style={{ transform: 'translate(15px, 15px)' }}></div>
+        {/* Image */}
+        <Image
+          src={img_src}
+          layout="fill"
+          alt={props.name}
+          sizes="50vw"
+          className="relative border border-solid object-cover"
+        />
+      </div>
 
       <h3 className='z-10'>{props.name}</h3>
       <div className="

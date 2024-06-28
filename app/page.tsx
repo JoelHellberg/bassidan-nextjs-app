@@ -122,8 +122,8 @@ export default function Home() {
       </div>
 
       {/* Welcome */}
-      <div className="flex w-full pr-8 mt-20 flex-wrap handheld:flex-col">
-        <div className="w-1/2 handheld:w-full"> {/* 80% width div */}
+      <div className="flex w-full pr-8 mt-20 flex-wrap handheld:flex-col mobile:pr-0 mobile:mx-auto">
+        <div className="w-1/2 handheld:w-full mobile:"> {/* 80% width div */}
           <div className="w-4/5 h-28 bg-darkOrange flex items-center justify-start pl-[8%] shadow-lg relative
         mobile:w-full mobile:overflow-x-hidden mobile:pl-[4%]">
             <h2 className="font-futura text-5xl text-white drop-shadow-lg mobile:text-4xl">Klassföreståndare</h2>
@@ -144,7 +144,7 @@ export default function Home() {
 
           <div className='
         flex justify-center -mt-12
-        mobile:flex-col mobile:space-y-12 handheld:justify-start
+        mobile:flex-col mobile:space-y-4 handheld:justify-start
         '>
             <ContactCard
               name='Armen Abedi'
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
           <div className='
         flex justify-center -mt-12
-        mobile:flex-col mobile:space-y-12 handheld:justify-start
+        mobile:flex-col mobile:space-y-4 handheld:justify-start
         '>
             <ContactCard
               name='Arvid Magnusson'
