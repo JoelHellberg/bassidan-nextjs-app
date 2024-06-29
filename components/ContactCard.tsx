@@ -18,7 +18,7 @@ const ContactCard = (props: Props) => {
     <div className="flex flex-col items-center w-1/3 p-4 m-2 rounded-lg mobile:w-4/5 mobile:mx-auto">
       <div className="relative aspect-[5/7] w-full">
         {/* Shadow div */}
-        <div className="absolute top-0 left-0 w-full h-full bg-backgroundShaded" style={{ transform: 'translate(15px, 15px)' }}></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-10" style={{ transform: 'translate(15px, 15px)' }}></div>
         {/* Image */}
         <Image
           src={img_src}
