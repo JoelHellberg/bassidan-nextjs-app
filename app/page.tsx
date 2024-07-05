@@ -54,7 +54,7 @@ export default function Home() {
             <h2 className="text-left pb-4">Basåret</h2>
             <p className="text-left pb-5">Glöm inte att fylla i nolle-enkäten! Följ oss gärna på Instagram också för att ta del av fler uppdateringar!</p>
             <div className="flex space-x-4">
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg8_IYgfXn6ZJqbY9t3Rt-HwNvk0S8diHmSmaP3kK_lkbKuA/viewform">
                 <button className="bg-darkPurple text-white px-4 py-2 rounded h-11 flex items-center justify-center">Nolle-enkäten</button>
               </a>
               <a href="https://www.instagram.com/basaret_norrkoping/">
