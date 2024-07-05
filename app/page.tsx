@@ -90,7 +90,7 @@ export default function Home() {
           '>
             <p className='
               text-xl text-justify pb-2
-              mobile:text-lg mobile:text-center
+              mobile:text-lg mobile:text-pretty
               thin:text-base
               '>
               På denna sida hittar Nollan information om vad som händer under första veckan på Linköpings Universitet, den så kallade ”Nolle-veckan”.
