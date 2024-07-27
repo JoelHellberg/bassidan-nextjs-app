@@ -27,18 +27,22 @@ const MobileMenu = (props: Props) => {
             isMobile={true}
             setMenuIsOpen={props.setMenuIsOpen}
           />
-          <MenuItem
-            title={"Schema Basår"}
-            redirect={"https://cloud.timeedit.net/liu/web/schema/ri167XQQ698Z50Qm37070gZ6y5Y7505Q6Y95Y7.html"}
-            isMobile={true}
-            setMenuIsOpen={props.setMenuIsOpen}
-          />
-          <MenuItem
-            title={"Nolleboken"}
-            redirect={"nolleboken.pdf"}
-            isMobile={true}
-            setMenuIsOpen={props.setMenuIsOpen}
-          />
+          <div className="text-blue-500 flex justify-end">
+            <MenuItem
+              title={"Schema Basår"}
+              redirect={"https://cloud.timeedit.net/liu/web/schema/ri167XQQ698Z50Qm37070gZ6y5Y7505Q6Y95Y7.html"}
+              isMobile={true}
+              setMenuIsOpen={props.setMenuIsOpen}
+            />
+          </div>
+          <div className="text-blue-500 flex justify-end">
+            <MenuItem
+              title={"Nolleboken"}
+              redirect={"nolleboken.pdf"}
+              isMobile={true}
+              setMenuIsOpen={props.setMenuIsOpen}
+            />
+          </div>
         </div>
       </div>
     </div>

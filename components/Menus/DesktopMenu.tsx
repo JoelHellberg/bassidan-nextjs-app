@@ -18,12 +18,14 @@ const DesktopMenu = () => {
           setMenuIsOpen={() => undefined}
         />
       </div>
-      <MenuItem
-        title={"Nolleboken"}
-        redirect={"nolleboken.pdf"}
-        isMobile={false}
-        setMenuIsOpen={() => undefined}
-      />
+      <div className='hover:text-blue-500'>
+        <MenuItem
+          title={"Nolleboken"}
+          redirect={"nolleboken.pdf"}
+          isMobile={false}
+          setMenuIsOpen={() => undefined}
+        />
+      </div>
     </div>
   )
 }
