@@ -13,7 +13,7 @@ const Header = () => {
 
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
-  const isMobile = useMediaQuery('(max-width: 1024px)')
+  const isMobile = useMediaQuery('(max-width: 1400px)')
   const LiU = "/images/logos/liu.png"
 
   // Check the pathname to see if header should be included or not
