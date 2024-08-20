@@ -160,7 +160,7 @@ export default function Home() {
         </div>
         <div className="w-1/2 handheld:w-full"> {/* 20% width div */}
           <div className="w-4/5 h-28 bg-darkLobster flex items-center justify-start pl-[8%] shadow-lg relative
-        mobile:w-full mobile:overflow-x-hidden mobile:mt-14 mobile:pl-[4%]">
+        mobile:w-full mobile:overflow-x-hidden handheld:mt-14 mobile:pl-[4%]">
             <h2 className="font-futura text-5xl text-white drop-shadow-lg mobile:text-4xl">Huvudklassfaddrar</h2>
 
             {/* Circle container */}
@@ -188,6 +188,11 @@ export default function Home() {
               name='Joel Hellberg'
               phone='070-294 40 05'
               email='joehe737@student.liu.se'
+              program='Medieteknik' />
+              <ContactCard
+              name='Teo Hedelin'
+              phone='072-013 57 47'
+              email='teohe874@student.liu.se'
               program='Medieteknik' />
           </div>
         </div>

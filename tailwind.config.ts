@@ -36,7 +36,7 @@ const config: Config = {
       },
     },
     screens: {
-      handheld: { 'max': '1024px' },
+      handheld: { 'max': '1400px' },
       mobile: { 'max': '750px' },
       thin: { 'max': '340px' }
     },
