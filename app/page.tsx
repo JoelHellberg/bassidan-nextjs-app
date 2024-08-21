@@ -156,6 +156,11 @@ export default function Home() {
               phone='076-178 60 24'
               email='caiwu993@student.liu.se'
               program='Medieteknik' />
+            <ContactCard
+              name='Salma Gabot'
+              phone='070-295 08 72'
+              email='salga107@student.liu.se'
+              program='Medieteknik' />
           </div>
         </div>
         <div className="w-1/2 handheld:w-full"> {/* 20% width div */}
