@@ -13,7 +13,7 @@ export const schedule = [
       },
       {
         header: "Campus-rundvandring",
-        time: "15:00-16:00",
+        time: "15:00-17:00",
         location: "Campus",
         alcohol: false,
         description: "Nollan visas runt på campus av faddrar för att Nollan ska kunna hitta bättre samt få ansikte på studentfiket och Trappan."
@@ -41,7 +41,7 @@ export const schedule = [
     activities: [
       {
         header: "Stadsrundvandring",
-        time: "A: 11:00 - 14:00, B: 11:30 - 14:30",
+        time: "A: 11:00 - 14:00, B: 11:00 - 14:00, C: 11:00-14:00",
         location: "Mellan husen",
         alcohol: false,
         description: "Nollan får träffa några av LinTeks föreningar och göra roliga aktiviteter med dem."
@@ -63,7 +63,7 @@ export const schedule = [
 
       {
         header: "Korvgrillning",
-        time: "18:00-22:00",
+        time: "18:00-23:00",
         location: "DK",
         alcohol: true,
         description: "Korvgrillning på DK med trevligt sällskap, härlig musik och roliga lekar! Om Nollan vill får Nollan svänga sina lurviga. (Det betyder att dansa, Nollan)."
@@ -78,7 +78,7 @@ export const schedule = [
       {
         header: "Lunch och sittningsinformation",
         time: "12:15-13:00",
-        location: "TP2",
+        location: "TP1",
         alcohol: false,
         description: "Vi har en kort presentation om “hur man går på sittning” och säljer fler biljetter till sittningen och basårskampen."
       },
@@ -104,11 +104,11 @@ export const schedule = [
     color: "customBlue",
     activities: [
       {
-        header: "Pluggstuga och Norrköpingstips",
+        header: "Pluggstuga",
         time: "10:15-12:00",
-        location: "TP42",
+        location: "Trappan",
         alcohol: false,
-        description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
+        description: "Nollan kan få hjälp med sina studier."
       },
       {
         header: "Matlådans dag",
@@ -125,11 +125,11 @@ export const schedule = [
     color: "darkOrange",
     activities: [
       {
-        header: "Pluggstuga och Norrköpingstips",
+        header: "Pluggstuga",
         time: "15:15-18:00",
         location: "TP42",
         alcohol: false,
-        description: "Nollan kan få hjälp med sina studier, ställa frågor till erfarna faddrar och få tips om vad man kan hitta på i Norrköping!"
+        description: "Nollan kan få hjälp med sina studier."
       },
       {
         header: "Torsdagspub",
@@ -150,7 +150,7 @@ export const schedule = [
         time: "19:00-21:00",
         location: "Himpan",
         alcohol: true,
-        description: "Vi delar upp Nollan i flera grupper och har en runda på studentboendet DK (se ordlistan) med aktiviter, tävlingar och annat kul!"
+        description: "Vi delar upp Nollan i flera grupper tävlar!"
       }
     ]
   },
