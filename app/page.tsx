@@ -1,7 +1,4 @@
 import Image from "next/image";
-import Opening from '@/sections/HomePage/Opening'
-import Welcome from '@/sections/HomePage/Welcome'
-import Contacts from '@/sections/HomePage/Contacts'
 import ContactCard from '../components/ContactCard'
 
 
@@ -48,6 +45,7 @@ export default function Home() {
           />
         </div>
 
+        {/* [Inforuta] */}
         {/* Centered Text Overlay */}
         <div className="absolute w-1/3 right-1/4 mobile:relative handheld:w-3/5 mobile:w-11/12 mobile:py-8 mobile:mx-auto handheld:right-0" >
           <div className="bg-background p-10 text-center shadow-lg">
@@ -77,9 +75,10 @@ export default function Home() {
         </div>
       </div>
 
+    {/* [Välkomstmeddelande med figur] */}
       <div className="flex w-full mobile:bg-slate-100 pt-10 mobile:pt-0">
 
-        {/* Welcome */}
+        {/* [Välomnstmeddelande] */}
         <div className="w-4/6
       handheld:w-screen mobile:py-3"> {/* 80% width div */}
           <h2 className='pt-6 pb-10 px-32 text-left handheld:text-center handheld:px-0 mobile:text-4xl'> Välkommen Nollan!</h2> {/* First paragraph */}
@@ -107,6 +106,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/* [Figur] */}
         <div className="w-2/6 m-auto
       handheld:hidden"> {/* 20% width div */}
           <Image
@@ -121,8 +121,9 @@ export default function Home() {
 
       </div>
 
-      {/* Welcome */}
+      {/* HKF:er & KLF:er */}
       <div className="flex w-full pr-8 mt-20 flex-wrap handheld:flex-col mobile:pr-0 mobile:mx-auto">
+        {/* HKF & KLF banderollerna */}
         <div className="w-1/2 handheld:w-full mobile:"> {/* 80% width div */}
           <div className="w-4/5 h-28 bg-darkOrange flex items-center justify-start pl-[8%] shadow-lg relative
         mobile:w-full mobile:overflow-x-hidden mobile:pl-[4%]">
@@ -142,6 +143,7 @@ export default function Home() {
 
           </div>
 
+          {/* [Bild och info på alla KLF:er] */}
           <div className='
         flex justify-center -mt-12
         mobile:flex-col mobile:space-y-4 handheld:justify-start
@@ -163,7 +165,7 @@ export default function Home() {
               program='Medieteknik' />
           </div>
         </div>
-        <div className="w-1/2 handheld:w-full"> {/* 20% width div */}
+        <div className="w-1/2 handheld:w-full">
           <div className="w-4/5 h-28 bg-darkLobster flex items-center justify-start pl-[8%] shadow-lg relative
         mobile:w-full mobile:overflow-x-hidden handheld:mt-14 mobile:pl-[4%]">
             <h2 className="font-futura text-5xl text-white drop-shadow-lg mobile:text-4xl">Huvudklassfaddrar</h2>
@@ -180,6 +182,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* [Bild och info på alla HKF:er] */}
           <div className='
         flex justify-center -mt-12
         mobile:flex-col mobile:space-y-4 handheld:justify-start
